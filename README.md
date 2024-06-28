@@ -18,17 +18,17 @@ Example 1:
   
 </div>
 
-Input: n = 5, roads = [[0,1],[1,2],[2,3],[0,2],[1,3],[2,4]]</br>
-Output: 43</br>
-Explanation: The figure above shows the country and the assigned values of [2,4,5,3,1].</br>
-- The road (0,1) has an importance of 2 + 4 = 6.</br>
-- The road (1,2) has an importance of 4 + 5 = 9.</br>
-- The road (2,3) has an importance of 5 + 3 = 8.</br>
-- The road (0,2) has an importance of 2 + 5 = 7.</br>
-- The road (1,3) has an importance of 4 + 3 = 7.</br>
-- The road (2,4) has an importance of 5 + 1 = 6.</br>
-The total importance of all roads is 6 + 9 + 8 + 7 + 7 + 6 = 43.</br>
-It can be shown that we cannot obtain a greater total importance than 43.</br>
+> Input: n = 5, roads = [[0,1],[1,2],[2,3],[0,2],[1,3],[2,4]]</br>
+> Output: 43</br>
+> Explanation: The figure above shows the country and the assigned values of [2,4,5,3,1].</br>
+> - The road (0,1) has an importance of 2 + 4 = 6.</br>
+> - The road (1,2) has an importance of 4 + 5 = 9.</br>
+> - The road (2,3) has an importance of 5 + 3 = 8.</br>
+> - The road (0,2) has an importance of 2 + 5 = 7.</br>
+> - The road (1,3) has an importance of 4 + 3 = 7.</br>
+> - The road (2,4) has an importance of 5 + 1 = 6.</br>
+> The total importance of all roads is 6 + 9 + 8 + 7 + 7 + 6 = 43.</br>
+> It can be shown that we cannot obtain a greater total importance than 43.</br>
 
 Example 2:
 
@@ -38,14 +38,14 @@ Example 2:
 
 </div>
 
-Input: n = 5, roads = [[0,3],[2,4],[1,3]]</br>
-Output: 20</br>
-Explanation: The figure above shows the country and the assigned values of [4,3,2,5,1].</br>
-- The road (0,3) has an importance of 4 + 5 = 9.</br>
-- The road (2,4) has an importance of 2 + 1 = 3.</br>
-- The road (1,3) has an importance of 3 + 5 = 8.</br>
-The total importance of all roads is 9 + 3 + 8 = 20.</br>
-It can be shown that we cannot obtain a greater total importance than 20.</br>
+> Input: n = 5, roads = [[0,3],[2,4],[1,3]]</br>
+> Output: 20</br>
+> Explanation: The figure above shows the country and the assigned values of [4,3,2,5,1].</br>
+> - The road (0,3) has an importance of 4 + 5 = 9.</br>
+> - The road (2,4) has an importance of 2 + 1 = 3.</br>
+> - The road (1,3) has an importance of 3 + 5 = 8.</br>
+> The total importance of all roads is 9 + 3 + 8 = 20.</br>
+> It can be shown that we cannot obtain a greater total importance than 20.</br>
 
 My Solution Analysis:
 
